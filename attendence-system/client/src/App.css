@@ -227,3 +227,8 @@ body {
 .status-btn.P { background: #dcfce7; color: #166534; }
 .status-btn.A { background: #fee2e2; color: #991b1b; }
 .status-btn:hover { opacity: 0.8; transform: scale(1.02); }
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
